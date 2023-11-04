@@ -1,4 +1,5 @@
 const chai = require('chai');
+
 global.sinon = require('sinon');
 global.expect = chai.expect;
 global.assert = chai.assert;
