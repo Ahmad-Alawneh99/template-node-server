@@ -8,7 +8,8 @@
     "start": "node src/server.js",
     "test": "nyc mocha",
     "eslint": "eslint src/**",
-    "eslint:fix": "eslint src/** --fix"
+    "eslint:fix": "eslint src/** --fix",
+    "sanity": "npm run eslint && npm run test"
   },
   "author": "Ahmad Alawneh",
   "license": "ISC",
