@@ -1,0 +1,33 @@
+{
+	"extends": [
+		"eslint:recommended",
+		"plugin:import/errors"
+	],
+	"plugins": ["import"],
+	"rules": {
+		"semi": "error",
+		"quotes": ["error", "single"],
+		"eqeqeq": "error",
+		"no-await-in-loop": "error",
+		"consistent-return": "error",
+		"curly": "error",
+		"arrow-spacing": "error",
+		"no-multi-spaces": "error",
+		"eol-last": "error",
+		"comma-spacing": "error",
+		"comma-dangle": ["error", "always-multiline"],
+		"indent": ["error", "tab"],
+		"no-trailing-spaces": "error",
+		"padding-line-between-statements": ["error",
+			{ "blankLine": "always", "prev": "*", "next": "return" }
+		],
+		"no-multiple-empty-lines": ["error", { "max": 1 }],
+		"import/order": "error",
+		"no-var": "error"
+	},
+	"env": {
+		"browser": true,
+		"node": true,
+		"es6": true
+	}
+}
