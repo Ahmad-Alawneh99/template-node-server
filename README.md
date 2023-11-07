@@ -1,6 +1,6 @@
 # template-node-server
 
-* A simple nodeJS server that can used as a template for new projects 
+* A simple nodeJS express server configured with ESLint and unit tests
 
 ## Features
 
