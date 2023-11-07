@@ -25,7 +25,8 @@
 		"@stylistic/js/no-multiple-empty-lines": ["error", { "max": 1 }],
 		"import/order": "error",
 		"no-var": "error",
-		"@stylistic/js/object-curly-spacing": ["error", "always"]
+		"@stylistic/js/object-curly-spacing": ["error", "always"],
+		"prefer-template": "error"
 	},
 	"env": {
 		"browser": true,
