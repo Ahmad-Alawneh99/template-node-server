@@ -4,6 +4,9 @@
 
 ## Features
 
+### Custom handlers
+* Built-in logging and error handling, which can be further customized
+
 ### Eslint
 * Eslint is configred with with the recommended rules in addition to my go-to rules
 
