@@ -6,12 +6,15 @@
 	],
 	"plugins": ["import", "@stylistic/js"],
 	"rules": {
-		"@stylistic/js/semi": "error",
-		"@stylistic/js/quotes": ["error", "single"],
 		"eqeqeq": "error",
 		"no-await-in-loop": "error",
 		"consistent-return": "error",
 		"curly": "error",
+		"prefer-template": "error",
+		"import/order": "error",
+		"no-var": "error",
+		"@stylistic/js/semi": "error",
+		"@stylistic/js/quotes": ["error", "single"],
 		"@stylistic/js/arrow-spacing": "error",
 		"@stylistic/js/no-multi-spaces": "error",
 		"@stylistic/js/eol-last": "error",
@@ -23,10 +26,7 @@
 			{ "blankLine": "always", "prev": "*", "next": "return" }
 		],
 		"@stylistic/js/no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0, "maxBOF": 0 }],
-		"import/order": "error",
-		"no-var": "error",
 		"@stylistic/js/object-curly-spacing": ["error", "always"],
-		"prefer-template": "error",
 		"@stylistic/js/keyword-spacing": ["error", { "before": true, "after": true }],
 		"@stylistic/js/block-spacing": "error"
 	},
