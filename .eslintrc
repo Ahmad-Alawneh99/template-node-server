@@ -28,7 +28,8 @@
 		"@stylistic/js/object-curly-spacing": ["error", "always"],
 		"prefer-template": "error",
 		"@stylistic/js/keyword-spacing": ["error", { "before": true, "after": true }],
-		"@stylistic/js/block-spacing": "error"
+		"@stylistic/js/block-spacing": "error",
+		"no-return-await": "error"
 	},
 	"env": {
 		"browser": true,

@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(requestService.logRequest);
 
 app.get('/', async (req, res, next) => {
-	return await requestService.handleRequest(req, res, next, async () => {
+	return requestService.handleRequest(req, res, next, async () => {
 		return res.send('Hello World!');
 	});
 });
