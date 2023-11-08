@@ -15,8 +15,7 @@ const handleRequest = async (req, res, next, callback) => {
 };
 
 const logRequest = (req, res, next) => {
-	console.log(`Calling ${req.path}`);
-	console.log(`Method: ${req.method}`);
+	console.log(`Calling '${req.path}'. Method: ${req.method}`);
 
 	next();
 };

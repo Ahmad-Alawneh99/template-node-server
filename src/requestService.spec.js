@@ -55,8 +55,7 @@ describe('requestService', () => {
 
 		it('should log request details', () => {
 			logRequest({ path: 'mockPath', method: 'mockMethod' }, {}, sinon.stub());
-			expect(mockedConsoleLog.getCall(0)).to.have.been.calledWithExactly('Calling mockPath');
-			expect(mockedConsoleLog.getCall(1)).to.have.been.calledWithExactly('Method: mockMethod');
+			expect(mockedConsoleLog).to.have.been.calledWithExactly('Calling \'mockPath\'. Method: mockMethod');
 		});
 	});
 
