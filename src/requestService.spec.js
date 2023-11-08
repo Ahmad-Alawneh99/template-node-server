@@ -31,7 +31,7 @@ describe('requestService', () => {
 			expect(mockNext).to.have.been.called;
 		});
 
-		it('should handle error out if attempting to call the provided callback fails', async () => {
+		it('should error out if attempting to call the provided callback fails', async () => {
 			mockCallback.returns('not an async function');
 
 			await handleRequest({}, {}, mockNext, mockCallback);
