@@ -13,6 +13,7 @@
 		"prefer-template": "error",
 		"import/order": "error",
 		"no-var": "error",
+		"no-use-before-define": "error",
 		"@stylistic/js/semi": "error",
 		"@stylistic/js/quotes": ["error", "single"],
 		"@stylistic/js/arrow-spacing": "error",
@@ -28,7 +29,8 @@
 		"@stylistic/js/no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0, "maxBOF": 0 }],
 		"@stylistic/js/object-curly-spacing": ["error", "always"],
 		"@stylistic/js/keyword-spacing": ["error", { "before": true, "after": true }],
-		"@stylistic/js/block-spacing": "error"
+		"@stylistic/js/block-spacing": "error",
+		"@stylistic/js/space-infix-ops": ["error"]
 	},
 	"env": {
 		"browser": true,
