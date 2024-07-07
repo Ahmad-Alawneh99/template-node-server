@@ -32,6 +32,7 @@
 		"@stylistic/js/block-spacing": "error",
 		"@stylistic/js/space-infix-ops": ["error"],
 		"@stylistic/js/space-before-blocks": ["error"],
+		"@stylistic/js/key-spacing": ["error"]
 	},
 	"env": {
 		"browser": true,
